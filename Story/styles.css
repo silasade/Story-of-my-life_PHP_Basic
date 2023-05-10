@@ -1,0 +1,106 @@
+body{
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background: hsla(230, 59%, 25%, 1);
+
+background: linear-gradient(135deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+
+background: -moz-linear-gradient(135deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+
+background: -webkit-linear-gradient(135deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A2766", endColorstr="#AE1B1E", GradientType=1 );
+
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    justify-self: center;
+}
+.one,.two,.three{
+    text-align: center;
+}
+.about{
+    display: flex;
+    line-height: 70px;
+   text-align: justify;
+   margin: 0 10% -3% 10%;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration:  none;
+    color: beige;
+    
+}
+.portfolio {
+    text-align: center;
+    margin: 5% 10% 0 10%;
+}
+.portfolio li{
+    list-style: decimal;
+    text-align: center;
+    line-height: 60px;
+}
+.lecturer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 12%;
+
+}.lecturer li{
+    
+    list-style: decimal;
+    text-align: justify;
+    line-height: 40px;
+    list-style: lower-greek;
+    list-style-position: calc(50%);
+}
+.exper{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   align-content: space-evenly;
+   gap: 20px;
+   line-height: 40px;
+   margin: 5% 12% 0 12%;
+}
+.one{
+    margin-top: 15%;
+    line-height: 40px;
+}
+
+a:hover{
+    border-bottom: 5px;
+    border-top:0 ;
+    border-right: 0;
+    border-left: 0;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-image: linear-gradient(145deg, purple, orange) 1;
+}
+h1:hover{
+    background-image: linear-gradient(#f3ec78, #af4261);
+    background-image: conic-gradient(#f3ec78, #af4261);
+        background-color: #f3ec78;
+        background-image: linear-gradient(905deg, #f3ec78, #af4261);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+    
+}
+a{
+    text-decoration:  none;
+    color: beige;
+    
+}
